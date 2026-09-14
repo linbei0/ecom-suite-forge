@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "E-commerce",
+      "description": "Skills for reverse-engineering e-commerce product image sets into reusable templates.",
+      "skills": ["ecom-suite-forge"]
+    }
+  ]
+}

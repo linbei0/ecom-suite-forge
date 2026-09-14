@@ -1,5 +1,7 @@
 # ecom-suite-forge
 
+[English](README.md) · [简体中文](README.zh-CN.md)
+
 [![skills.sh](https://skills.sh/b/linbei0/ecom-suite-forge)](https://skills.sh/linbei0/ecom-suite-forge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -111,6 +113,8 @@ assets/
   analysis-worksheet.md               # per-image analysis worksheet
   suite-template.example.json         # complete example suite
 skills.sh.json                        # skills.sh repository page config
+README.md                             # English guide (this file)
+README.zh-CN.md                       # Simplified Chinese guide
 ```
 
 ## Core rules

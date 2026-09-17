@@ -19,7 +19,7 @@
 - 一个 **L1/L2 品类** 和一个自由文本的 `leaf` 产品名；
 - 一张**按转化顺序排列的分镜表**，把每张源图映射到固定的 8 角色漏斗词汇表（`HERO`、`PAIN_POINT`、`COMPARISON`、`SCENE`、`DETAIL`、`TRUST`、`VARIANT`、`CTA`）；
 - 一套**逐镜原样复用的 Campaign Style Lock**；
-- 每个分镜一条**英文 `promptTemplate`**，包含 hex 颜色、数值化的产品占比、明确的留白与 negative list。
+- 每个分镜一条**英文 `promptTemplate`**，包含 hex 颜色、数值化的产品占比与 negative list。
 
 生成阶段的流程如下：
 
@@ -121,7 +121,7 @@ README.zh-CN.md                       # 简体中文说明（本文件）
 
 - **与源图解耦。** 只保留可复用的视觉语法；品牌、模特身份、Logo 与源图文案一律剥离。
 - **顺序即漏斗**，而非图片堆叠：点击 → 卖点 → 痛点 → 证明 → 场景 → 细节 → 信任 → 变体 → 收单。
-- **颜色用 hex**，不用形容词；产品占比与留白用数字；每条 Prompt 以具体的 negative list 结尾。
+- **颜色用 hex**，不用形容词；产品占比用数字；每条 Prompt 以具体的 negative list 结尾。
 - **一套 style lock，原样复用** —— 在机位、背景与目的变化时保持一致。
 - **不虚构事实。** 无法验证的证明保留为占位符。
 

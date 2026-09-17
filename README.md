@@ -19,7 +19,7 @@ Given a folder of 6–12 viral product images of the same product, the skill pro
 - an **L1/L2 category** and free-text `leaf` product name,
 - a **conversion-ordered storyboard** mapping each source image onto a fixed 8-role funnel vocabulary (`HERO`, `PAIN_POINT`, `COMPARISON`, `SCENE`, `DETAIL`, `TRUST`, `VARIANT`, `CTA`),
 - a **Campaign Style Lock** reused verbatim across every shot,
-- one **English `promptTemplate` per shot** with hex colors, numeric product occupancy, explicit whitespace and a negative list.
+- one **English `promptTemplate` per shot** with hex colors, numeric product occupancy and a negative list.
 
 At generation time the flow is:
 
@@ -121,7 +121,7 @@ README.zh-CN.md                       # Simplified Chinese guide
 
 - **Detach from the source.** Only reusable visual grammar survives; brand, model identity, logos, and source copy are stripped.
 - **Order is a funnel**, not a pile of images: click → benefit → pain → proof → scene → detail → trust → variant → close.
-- **Colors are hex**, never adjectives; product occupancy and whitespace are numbers; every prompt ends with a concrete negative list.
+- **Colors are hex**, never adjectives; product occupancy is a number; every prompt ends with a concrete negative list.
 - **One style lock, reused verbatim** — the set stays consistent while angles, backgrounds and purposes vary.
 - **No invented facts.** Unverifiable proof is left as a placeholder.
 
